@@ -1,0 +1,3 @@
+[submodule "polyester.git"]
+	path = polyester.git
+	url = git@github.com:alyssafrazee/polyester.git

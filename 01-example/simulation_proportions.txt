@@ -1,0 +1,5 @@
+locus	sim01
+HML2_chr3_3q12.3	0.25
+HML2_chr1_1q22	0.25
+HML2_chr1_1q23.3	0.25
+HML2_chr6_6q25.1	0.25

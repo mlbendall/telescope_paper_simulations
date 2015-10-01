@@ -1,0 +1,23 @@
+### Table 1. RepEnrich estimates of TE expression for simulated HERVK sample.
+Subfamily	Family	Count	Prop	Expected	Prop
+HERVK-int	ERVK	475	76.6%	640	80.0%
+LTR5B	ERVK	70	11.3%	63	7.9%
+LTR5_Hs	ERVK	38	6.1%	60	7.5%
+LTR5	ERVK	34	5.5%	37	4.6%
+Other	-	3	0.5%	0	0.0%
+Unassigned	-	180	29.0%	0	0.0%
+### Table 2. Simple estimates of HERV expression.
+Locus	Unique	Best	Fractional
+HML2_1q22	0	70	11.36
+HML2_1q23.3	14	94	28.94
+HML2_3q12.3	26	94	47.16
+HML2_6q25.1	95	100	97.20
+Other	0	42	215.35
+Unassigned	265	0	0.00
+### Table 3. Telescope estimates of TE expression for simulated HERVK sample.
+Locus	Count	Pi	Expected
+HML2_1q22	105	25.33%	100
+HML2_1q23.3	98	24.48%	100
+HML2_3q12.3	97	25.07%	100
+HML2_6q25.1	100	25.13%	100
+Unassigned	0	-	0
