@@ -29,13 +29,13 @@ Rscript sim_expression.R 123456
 # Set POLYESTER_DIR environment variable
 export POLYESTER_DIR=$(dirname $PWD)/polyester.git
 
-Rscript simulate.R $HERV_FAS simulation_proportions.txt 40 123456    # 10 per sampl
-Rscript simulate.R $HERV_FAS simulation_proportions.txt 80 123456    # 20
-Rscript simulate.R $HERV_FAS simulation_proportions.txt 160 123456   # 40
-Rscript simulate.R $HERV_FAS simulation_proportions.txt 320 123456   # 80
-Rscript simulate.R $HERV_FAS simulation_proportions.txt 640 123456   # 160
-Rscript simulate.R $HERV_FAS simulation_proportions.txt 1280 123456  # 320
-Rscript simulate.R $HERV_FAS simulation_proportions.txt 2560 123456  # 640
+Rscript sim_reads.R $HERV_FAS simulation_proportions.txt 40 123456    # 10 per sample
+Rscript sim_reads.R $HERV_FAS simulation_proportions.txt 80 123456    # 20
+Rscript sim_reads.R $HERV_FAS simulation_proportions.txt 160 123456   # 40
+Rscript sim_reads.R $HERV_FAS simulation_proportions.txt 320 123456   # 80
+Rscript sim_reads.R $HERV_FAS simulation_proportions.txt 640 123456   # 160
+Rscript sim_reads.R $HERV_FAS simulation_proportions.txt 1280 123456  # 320
+Rscript sim_reads.R $HERV_FAS simulation_proportions.txt 2560 123456  # 640
 
 for sd in simdata*; do
     echo $sd
